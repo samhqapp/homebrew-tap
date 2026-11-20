@@ -1,14 +1,14 @@
-# Homebrew tap
+# samhqapp Homebrew tap
 
-Homebrew casks for apps by Suraj Mandal.
+Homebrew casks for samhqapp Mac apps.
 
-## Hushpen
+## Install
 
-Local speech-to-text dictation and file transcription for macOS (Apple silicon, macOS 13 or later).
+| App | Install |
+| --- | --- |
+| Hushpen: local speech-to-text dictation and file transcription (Apple silicon, macOS 13 or later) | `brew install --cask samhqapp/tap/hushpen` |
 
-```sh
-brew install --cask surajmandalcell/tap/hushpen
-```
+## Updates
 
-A GitHub Actions workflow checks for a new Hushpen release every 6 hours
-and updates the cask.
+Each cask has a GitHub Actions workflow in `.github/workflows/` that checks
+for a new release every 6 hours and updates the cask's version and sha256.
