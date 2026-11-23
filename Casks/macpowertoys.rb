@@ -2,7 +2,7 @@ cask "macpowertoys" do
   version "2.0.0"
   sha256 "c2ebc4eb9611de5ffebcfef93bac5ec31ebfd2f02f4dfba0175b96f3268a2a0b"
 
-  url "https://github.com/surajmandalcell/macpowertoys/releases/download/v#{version}/MacPowerToys-#{version}.dmg"
+  url "https://github.com/samhqapp/macpowertoys/releases/download/v#{version}/MacPowerToys-#{version}.dmg"
   name "MacPowerToys"
   desc "Ruler, color picker, text extractor, fan control, and other utilities"
   homepage "https://macpowertoys.samhq.app/"

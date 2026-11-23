@@ -25,7 +25,7 @@ jobs:
         run: |
           set -euo pipefail
           cask=Casks/hushpen.rb
-          tag=$(gh release view -R surajmandalcell/hushpen --json tagName -q .tagName)
+          tag=$(gh release view -R samhqapp/hushpen --json tagName -q .tagName)
           latest=${tag#v}
           [[ "$latest" =~ ^[0-9]+(\.[0-9]+)*$ ]] || { echo "unexpected tag: $tag"; exit 1; }
           current=$(sed -n 's/^  version "\(.*\)"$/\1/p' "$cask")
@@ -34,7 +34,7 @@ jobs:
             exit 0
           fi
           asset="Hushpen-${latest}-macos-arm64.zip"
-          gh release download "$tag" -R surajmandalcell/hushpen -p "$asset" -D "$RUNNER_TEMP"
+          gh release download "$tag" -R samhqapp/hushpen -p "$asset" -D "$RUNNER_TEMP"
           sha=$(sha256sum "$RUNNER_TEMP/$asset" | cut -d' ' -f1)
           sed -i -e "s/^  version \".*\"$/  version \"$latest\"/" \
                  -e "s/^  sha256 \".*\"$/  sha256 \"$sha\"/" "$cask"

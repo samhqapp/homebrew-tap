@@ -2,7 +2,7 @@ cask "hushpen" do
   version "2.5.0"
   sha256 "6b3f29318c8c7606c62303a4dc794526db5e6245180e5979e4f673c0a5a92436"
 
-  url "https://github.com/surajmandalcell/hushpen/releases/download/v#{version}/Hushpen-#{version}-macos-arm64.zip"
+  url "https://github.com/samhqapp/hushpen/releases/download/v#{version}/Hushpen-#{version}-macos-arm64.zip"
   name "Hushpen"
   desc "Local speech-to-text dictation and file transcription"
   homepage "https://hushpen.samhq.app/"
