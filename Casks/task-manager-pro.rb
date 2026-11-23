@@ -13,7 +13,7 @@ cask "task-manager-pro" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Task Manager Pro.app"
 
