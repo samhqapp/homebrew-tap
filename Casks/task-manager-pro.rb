@@ -1,6 +1,6 @@
 cask "task-manager-pro" do
-  version "0.1"
-  sha256 "991e0d6124dabf844a5d9cacad46e125007831664665c647bf37d333a497ba64"
+  version "0.1.1"
+  sha256 "98bcbb51341fa09ebd1f9b6b260923a0362dcac90f9bb1fa9b5a1fc268c0e38c"
 
   url "https://github.com/samhqapp/releases/releases/download/taskmanagerpro-v#{version}/TaskManagerPro-#{version}.dmg",
       verified: "github.com/samhqapp/releases/"
