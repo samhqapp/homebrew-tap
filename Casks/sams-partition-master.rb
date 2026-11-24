@@ -1,6 +1,6 @@
 cask "sams-partition-master" do
-  version "1.0.0"
-  sha256 "f902315af18d635c0297ed6821c7561ea510d268e76e26526c99cc2e80bd11ef"
+  version "1.0.1"
+  sha256 "8c449e259adb463c1af5cc47fe32f12e6aeeca293e9f7a17d78edf7495d09e9c"
 
   url "https://github.com/samhqapp/releases/releases/download/samspartitionmaster-v#{version}/SamsPartitionMaster-#{version}.dmg",
       verified: "github.com/samhqapp/releases/"
