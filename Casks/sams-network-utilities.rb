@@ -2,7 +2,8 @@ cask "sams-network-utilities" do
   version "1.0.13"
   sha256 "b301e5f2c75b79208822705dd6a76ea00b193931f2377d2f8d2ba2dfef5de2db"
 
-  url "https://download.samhq.app/nettoys/SamsNetworkUtilities-#{version}.dmg"
+  url "https://github.com/samhqapp/releases/releases/download/nettoys-v#{version}/SamsNetworkUtilities-#{version}.dmg",
+      verified: "github.com/samhqapp/releases/"
   name "Sam's Network Utilities"
   desc "Network scanner, diagnostics, and Wi-Fi tools for the menu bar"
   homepage "https://samhq.app/"

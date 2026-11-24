@@ -9,7 +9,7 @@ Casks/<app>.rb                      one cask per app: version, sha256, url, depe
 README.md                           the install table
 ```
 
-Casks today: hushpen, macpowertoys, sams-network-utilities, sams-partition-master, switch, task-manager-classic, task-manager-pro, throttlecontrol. Apps on download.samhq.app update their cask from samhq_backend/scripts/publish-release.zsh.
+Casks today: hushpen, macpowertoys, sams-network-utilities, sams-partition-master, switch, task-manager-classic, task-manager-pro, throttlecontrol. Apps hosted on the public `samhqapp/releases` repo (private-source apps) update their cask from samhq_backend/scripts/publish-release.zsh.
 
 ## Add or change a cask
 

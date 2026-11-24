@@ -2,7 +2,8 @@ cask "task-manager-classic" do
   version "0.1"
   sha256 "972310c2e65a3ffd089322c31fb170044f307e5eefe3aad353bf236648628929"
 
-  url "https://download.samhq.app/taskmanager/TaskManagerClassic-#{version}.dmg"
+  url "https://github.com/samhqapp/releases/releases/download/taskmanagerclassic-v#{version}/TaskManagerClassic-#{version}.dmg",
+      verified: "github.com/samhqapp/releases/"
   name "Task Manager Classic"
   desc "Windows 7 style task manager"
   homepage "https://taskmanager.samhq.app/"

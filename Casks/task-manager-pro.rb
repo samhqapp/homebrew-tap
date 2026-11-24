@@ -2,7 +2,8 @@ cask "task-manager-pro" do
   version "0.1"
   sha256 "991e0d6124dabf844a5d9cacad46e125007831664665c647bf37d333a497ba64"
 
-  url "https://download.samhq.app/taskmanager/TaskManagerPro-#{version}.dmg"
+  url "https://github.com/samhqapp/releases/releases/download/taskmanagerpro-v#{version}/TaskManagerPro-#{version}.dmg",
+      verified: "github.com/samhqapp/releases/"
   name "Task Manager Pro"
   desc "Windows 11 style task manager"
   homepage "https://taskmanager.samhq.app/"

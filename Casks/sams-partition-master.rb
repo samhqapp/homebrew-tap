@@ -2,7 +2,8 @@ cask "sams-partition-master" do
   version "1.0.0"
   sha256 "f902315af18d635c0297ed6821c7561ea510d268e76e26526c99cc2e80bd11ef"
 
-  url "https://download.samhq.app/partitionmaster/SamsPartitionMaster-#{version}.dmg"
+  url "https://github.com/samhqapp/releases/releases/download/samspartitionmaster-v#{version}/SamsPartitionMaster-#{version}.dmg",
+      verified: "github.com/samhqapp/releases/"
   name "Sam's Partition Master"
   desc "Partition, format, and image disks"
   homepage "https://partitionmaster.samhq.app/"

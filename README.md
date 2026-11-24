@@ -19,4 +19,4 @@ Homebrew casks for samhqapp Mac apps.
 
 Apps on GitHub Releases (Hushpen) have a workflow in `.github/workflows/` that
 checks every 6 hours and updates the cask's version and sha256. Apps on
-download.samhq.app get their cask update from the app's own release script.
+github.com/samhqapp/releases get their cask update from the app's own release script.

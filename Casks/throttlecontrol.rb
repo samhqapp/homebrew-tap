@@ -2,7 +2,8 @@ cask "throttlecontrol" do
   version "0.2.6"
   sha256 "82ad59107ae9e9398704aae4971c463c732364e4ca75d6838f323f92bfe20cd0"
 
-  url "https://download.samhq.app/throttlecontrol/ThrottleControl-#{version}.dmg"
+  url "https://github.com/samhqapp/releases/releases/download/throttlecontrol-v#{version}/ThrottleControl-#{version}.dmg",
+      verified: "github.com/samhqapp/releases/"
   name "ThrottleControl"
   desc "Cap background downloads in the menu bar"
   homepage "https://throttlecontrol.samhq.app/"
