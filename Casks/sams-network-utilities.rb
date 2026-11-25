@@ -1,6 +1,6 @@
 cask "sams-network-utilities" do
-  version "1.0.14"
-  sha256 "fb26220040b14dc9a7b81c7748a5e499929b2c37d0cca3fe9c4e56e89186eb88"
+  version "1.1.0"
+  sha256 "5530557e3a0a6b3289fd671b8f2833acb40cf34b5088ad166b4306cbbf00c07e"
 
   url "https://github.com/samhqapp/releases/releases/download/nettoys-v#{version}/SamsNetworkUtilities-#{version}.dmg",
       verified: "github.com/samhqapp/releases/"
