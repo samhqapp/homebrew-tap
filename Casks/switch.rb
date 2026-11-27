@@ -1,6 +1,6 @@
 cask "switch" do
-  version "3.8.2"
-  sha256 "396797df74783a6e57ae5c24e037255243c6d899af929a7840af729b92f00dda"
+  version "3.10.0"
+  sha256 "a8eeff521dd3f944b9422a3add5c6001719c5f8c2b30371d22c87433b91d323b"
 
   url "https://github.com/samhqapp/switch/releases/download/v#{version}/Switch-v#{version}-mac-arm64.dmg"
   name "Switch"
