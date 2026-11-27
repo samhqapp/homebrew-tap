@@ -1,6 +1,6 @@
 cask "task-manager-classic" do
-  version "0.1.3"
-  sha256 "3678bf07b0ed07b47b1a535c3158df16c7cd5214ab1092eae8d40af816245e60"
+  version "0.1.4"
+  sha256 "7b6ac629b3a54589d2f407d3d4a3ca49421c73d81820d9a2652f4ffa66f21c20"
 
   url "https://github.com/samhqapp/releases/releases/download/taskmanagerclassic-v#{version}/TaskManagerClassic-#{version}.dmg",
       verified: "github.com/samhqapp/releases/"
